@@ -1,0 +1,44 @@
+header {
+  box-shadow: 0 4px 6px -6px $black;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+  background-color: $white;
+  position: static;
+
+  img {
+    height: 70px;
+    width: auto;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  ul {
+    //list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: end;
+    justify-items: center;
+    margin-right: 20px;
+
+    & a {
+      //text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: $secondary-color;
+      align-content: space-between;
+      transition: all 0.2s;
+
+      &:hover {
+        color: $primary-color;
+        border-bottom: solid $secondary-color 2px;
+      }
+    }
+  }
+}
