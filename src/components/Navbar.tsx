@@ -21,7 +21,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href={'/'}>
+            <Link href={'/work'}>
               <a>Work</a>
             </Link>
           </li>

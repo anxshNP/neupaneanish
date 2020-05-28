@@ -8,7 +8,7 @@ header {
   align-items: center;
   height: 70px;
   overflow: hidden;
-  background-color: $white;
+  background-color: #f3f3f3;
   position: static;
 
   img {
@@ -20,7 +20,6 @@ header {
   }
 
   ul {
-    //list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-self: end;
@@ -28,7 +27,6 @@ header {
     margin-right: 20px;
 
     & a {
-      //text-decoration: none;
       font-size: 20px;
       font-weight: bold;
       color: $secondary-color;
